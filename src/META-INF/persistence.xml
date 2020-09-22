@@ -10,6 +10,8 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- Lista de entidades -->
         <class>ponei.model.bean.Fornecedor</class>
+        <class>ponei.model.bean.Categoria</class>
+        <class>ponei.model.bean.Produto</class>
         <properties>
             <!-- Propriedades JDBC -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>

@@ -25,6 +25,11 @@ public class Fornecedor {
     private String email;
     private String manager;
 
+    @Override
+    public String toString() {
+        return fantasyName + " (" + socialReason + ")";
+    }
+
     public String getSocialReason() {
         return socialReason;
     }
